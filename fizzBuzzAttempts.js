@@ -11,7 +11,7 @@ for(i = 1; i < 101; i++){
         j = i
     }
 
-    document.querySelector("body").innerHTML += "<p>" + j + "</p>";
+    document.querySelector("body").innerHTML += `<p> ${j} </p>`;
 
 }
 
